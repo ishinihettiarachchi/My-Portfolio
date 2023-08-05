@@ -509,6 +509,10 @@ hr{
         width: 200px;    
     }
 
+    .btn:before,.btn:after{
+        display:none;
+      }
+
     .skill-main{
         width:100%;
         display: grid;
@@ -549,11 +553,11 @@ hr{
         padding: 20px 100px;
     }
 
-    .button button{
-        padding: 20px ;
-        font-size: 0.8rem;
-        width: 200px;    
-    }
+    .btn:before,.btn:after{
+        display:none;
+      }
+
+    
     .contact-section .contact-bar .col span a{
         display: none;
     }
