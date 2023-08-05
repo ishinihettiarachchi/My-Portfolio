@@ -88,6 +88,10 @@ html {
    
 }
 
+.nav .fa{
+    display: none;
+}
+
 .row1{
     display: flex;
     margin-top: 50px;
@@ -517,6 +521,12 @@ hr{
         
     }
 
+
+    .nav .fa-bars {
+        display: block; /* Show the FontAwesome icon */
+        font-size: 20px;
+    }
+
     .nav h1 span{
         font-size: 20px;
     }
@@ -533,6 +543,7 @@ hr{
         width: 50%; /* Make the menu full width */
         padding: 0; /* Remove padding */
         z-index: 2; /* Higher z-index to appear above other content */
+        background-color: var(--aqua-dark);
     }
 
     .nav .nav-links li {
@@ -550,16 +561,18 @@ hr{
     
     .nav a .nav-links a{
         color: white;
+        
     }
     
 
     .nav a:hover {
-        color: black;
+        background-color: var(--aqua-dark);
         border-radius: 10px;
     }
     
     .nav ul li a:hover{
         color: none;
+      
     }
     
     .nav ul li a:hover:before{
@@ -578,6 +591,7 @@ hr{
 
     .nav.active .nav-links {
         display: block;
+        
     }
 
 
