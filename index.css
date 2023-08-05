@@ -586,7 +586,20 @@ hr{
 
 
     .contact-section .contact-bar .col .icons i {
-        font-size: 0.8rem; /* Adjust the font size to make the icons smaller */
+        font-size: 0.8rem;
+        padding: 10px; 
+    }
+
+    .contact-section .contact-bar{
+    
+        padding: 10px;
+        border: solid 1px whitesmoke;
+        border-radius: 30px;
+        margin:5px 100px;
+    }
+       
+    .contact-section .contact-bar .col{
+        padding: 20px;
     }
 
 
