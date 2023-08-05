@@ -543,11 +543,12 @@ hr{
         width: 50%; /* Make the menu full width */
         padding: 0; /* Remove padding */
         z-index: 2; /* Higher z-index to appear above other content */
-        background-color: var(--aqua-dark);
+       
     }
 
     .nav .nav-links li {
         width: 80%; /* Make the menu items full width */
+        border-bottom: solid 1px var(--aqua-dark);
     }
 
     .nav a {
@@ -564,11 +565,6 @@ hr{
         
     }
     
-
-    .nav a:hover {
-        background-color: var(--aqua-dark);
-        border-radius: 10px;
-    }
     
     .nav ul li a:hover{
         color: none;
