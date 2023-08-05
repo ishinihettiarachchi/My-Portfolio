@@ -19,11 +19,14 @@
   }
 
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.nav');
+  function myFunction() {
+    var x = document.getElementById("navLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
-    menuToggle.addEventListener('click', function () {
-        nav.classList.toggle('active');
-    });
-});
+
+
