@@ -502,13 +502,7 @@ hr{
         grid-template-columns: repeat(1,1fr);   
     }
 
-    .contact-bar .col span a{
-        display: none;
-    }
-
-    .contact-bar .col i{
-        font-size: 16px;
-    }
+   
 
 }
 
@@ -588,6 +582,11 @@ hr{
     .nav.active .nav-links {
         display: block;
         
+    }
+
+
+    .contact-section .contact-bar .col .icons i {
+        font-size: 0.8rem; /* Adjust the font size to make the icons smaller */
     }
 
 
