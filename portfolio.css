@@ -470,18 +470,32 @@ hr{
         display: none;
     }
 
-    .image img{
-    width: 50%;
-    border-radius: 30px;
-    -moz-box-shadow: 0 0 10px #fff;
-    -webkit-box-shadow: 0 0 10px var(--aqua-dark);
-    box-shadow: 0px 0px 30px #01fcf4;
-    border: solid 5px var(--aqua-dark);
-    }
-
     .details{
         color: rgb(255, 255, 255);
     }
+    .row1 {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .image {
+        text-align: center; /* Center the image */
+        margin-bottom: 20px;
+
+    }
+
+    .image img {
+        width: 70%; /* Adjust image width for better fit on smaller screens */
+        margin: 0; /* Remove margin to center the image */
+    }
+
+    .details {
+        margin-top: 20px; /* Adjust margin for spacing */
+        padding: 20px; /* Adjust padding for spacing */
+        text-align: center; /* Center text content */
+    }
+
+
 
     .about-container p{
         color: white;
