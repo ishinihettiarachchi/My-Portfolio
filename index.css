@@ -464,20 +464,20 @@ hr{
     }
 
     .image {
-        text-align: center; /* Center the image */
+        text-align: center; 
         margin-bottom: 20px;
 
     }
 
     .image img {
-        width: 70%; /* Adjust image width for better fit on smaller screens */
-        margin: 0; /* Remove margin to center the image */
+        width: 70%; 
+        margin: 0; 
     }
 
     .details {
-        margin-top: 20px; /* Adjust margin for spacing */
-        padding: 20px; /* Adjust padding for spacing */
-        text-align: center; /* Center text content */
+        margin-top: 20px;
+        padding: 20px; 
+        text-align: center;
     }
 
     
@@ -504,16 +504,16 @@ hr{
 
 @media (max-width: 768px) {
     .nav h1{
-        position: absolute; /* Set the position to absolute */
-        top: 5px; /* Position it at the top */
-        right: 5px; /* Position it at the right */
-        margin: 30px; /* Add some margin for spacing */
+        position: absolute; 
+        top: 5px; 
+        right: 5px; 
+        margin: 30px; 
         
     }
 
 
     .nav .fa-bars {
-        display: block; /* Show the FontAwesome icon */
+        display: block; 
         font-size: 20px;
     }
 
@@ -523,21 +523,21 @@ hr{
 
     .nav {
         position: relative;
-        z-index: 1; /* Ensure the navigation is above other content */
+        z-index: 1; 
     }
 
     .nav .nav-links {
         display: none;
         position: absolute;
-        top: 60px; /* Adjust the top position */
-        width: 50%; /* Make the menu full width */
-        padding: 0; /* Remove padding */
-        z-index: 2; /* Higher z-index to appear above other content */
+        top: 60px; 
+        width: 50%; 
+        padding: 0; 
+        z-index: 2; 
        
     }
 
     .nav .nav-links li {
-        width: 80%; /* Make the menu items full width */
+        width: 80%; 
         border-bottom: solid 1px var(--aqua-dark);
     }
 
@@ -572,7 +572,7 @@ hr{
         position: absolute;
         right: 0;
         top: 0;
-        z-index: 3; /* Ensure the menu toggle is above the menu */
+        z-index: 3; 
     }
 
     .nav.active .nav-links {
@@ -585,7 +585,7 @@ hr{
     }
 
     .buttonContainer {
-        margin: 0 50px;
+        margin: 0 90px;
     }
 
 
@@ -610,31 +610,33 @@ hr{
         padding: 15px;
     }
 
-
+    .contact-section .contact-bar .col span a{
+        display: none;
+    }
 
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px){
     .row1 {
-        flex-direction: column; /* Change to a column layout */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .image {
-        text-align: center; /* Center the image */
-        margin-bottom: 20px; /* Add some space between image and details */
+        text-align: center; 
+        margin-bottom: 20px; 
     }
 
     .image img {
-        width: 60%; /* Adjust image width for better fit on smaller screens */
-        margin: 0 auto; /* Center the image horizontally */
+        width: 60%; 
+        margin: 0 auto; 
     }
 
     .details {
-        margin-top: 20px; /* Adjust margin for spacing */
-        padding: 20px; /* Adjust padding for spacing */
-        text-align: center; /* Center text content */
+        margin-top: 20px; 
+        padding: 20px;
+        text-align: center; 
     }
 
     .about-container p{
@@ -654,7 +656,7 @@ hr{
 @media (min-width: 1024px) and (max-width: 1500px) {
     .contact-section .contact-bar .col {
         text-align: center;
-        padding: 20px; /* Reduce padding for spacing */
+        padding: 20px; 
     }
 
     .contact-section .contact-bar .col span a {
@@ -665,10 +667,10 @@ hr{
     }
 
     .contact-section .contact-bar .col .icons i {
-        padding: 15px; /* Adjust padding for icons */
+        padding: 15px; 
         background-color: var(--aqua-dark);
         color: black;
         border-radius: 55%;
-        font-size: 1.3rem; /* Adjust font size for icons */
+        font-size: 1.3rem; 
     }
 }
