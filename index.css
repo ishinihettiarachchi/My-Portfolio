@@ -480,11 +480,7 @@ hr{
         text-align: center; /* Center text content */
     }
 
-    .about-container p{
-        color: white;
-        text-align: justify;
-        padding: 20px 80px;
-    }
+    
  
     .button button{
         padding: 20px ;
@@ -584,6 +580,14 @@ hr{
         
     }
 
+    .about-container p{
+        padding: 10px 20px;
+    }
+
+    .buttonContainer {
+        margin: 0 50px;
+    }
+
 
     .contact-section .contact-bar .col .icons i {
         font-size: 0.8rem;
@@ -602,11 +606,16 @@ hr{
         padding: 20px;
     }
 
+    .skill-section {
+        padding: 15px;
+    }
+
+
 
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px){
     .row1 {
         flex-direction: column; /* Change to a column layout */
         align-items: center; /* Center items horizontally */
@@ -629,8 +638,6 @@ hr{
     }
 
     .about-container p{
-        color: white;
-        text-align: justify;
         padding: 20px 100px;
     }
 
