@@ -588,6 +588,9 @@ hr{
         margin: 0 90px;
     }
 
+    .buttonContainer .section {
+        padding: 10px 0;
+    }
 
     .contact-section .contact-bar .col .icons i {
         font-size: 0.8rem;
