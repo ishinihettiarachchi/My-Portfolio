@@ -514,6 +514,7 @@ hr{
     .nav .fa-bars {
         display: block; 
         font-size: 20px;
+        
     }
 
     .nav h1 span{
@@ -522,6 +523,7 @@ hr{
 
     .nav {
         z-index: 1; 
+        
     }
 
 
@@ -575,6 +577,7 @@ hr{
 
     .nav.active .nav-links {
         display: block;
+        
         
     }
 
