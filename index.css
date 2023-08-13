@@ -24,6 +24,8 @@ html {
     height: 100vh;
 }
 
+
+
 .nav{
     display: flex;
     width: 100%;
@@ -32,8 +34,6 @@ html {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    left: 0; 
-    margin: 0;
     z-index: 999;
    
 }
@@ -49,6 +49,7 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     border-radius: 10px;
+    margin-left: 10px;
 }
 
 .menu-toggle {
@@ -99,7 +100,7 @@ html {
 
 .row1{
     display: flex;
-    margin-top: 50px;
+    padding-top: 10%;
 }
 
 .image{
