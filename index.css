@@ -572,7 +572,7 @@ hr{
     }
 
     .nav a .hbar {
-        background: black;
+        
         display: block;
         position: absolute;
         right: 0;
@@ -582,9 +582,15 @@ hr{
 
     .nav.active .nav-links {
         display: block;
-        
-        
+   
     }
+
+    .fa-times{
+        color: white;
+        font-size: 20px;
+    }
+
+  
 
     .image img {
         margin-top: 50px;
