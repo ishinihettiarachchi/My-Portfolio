@@ -26,7 +26,16 @@
     } else {
       x.style.display = "block";
     }
+  
+    
   }
+
+  function closeMenu() {
+    var x = document.getElementById("navLinks");
+    x.style.display = "none";
+}
+
+
 
 
 
